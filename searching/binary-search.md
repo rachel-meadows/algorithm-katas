@@ -1,0 +1,1 @@
+Time cost is O(log2​n).

@@ -1,0 +1,3 @@
+In merge sort, the idea is to divide the array in half, sort the two halves, and then merge the two sorted halves into one sorted whole. But how do we sort the two halves? Well, we divide them in half, sort them, and merge the sorted halves...and so on. 
+
+Time cost is O(nlog2​n). The log⁡2n\log_{2}{n}log2​n comes from the number of times we have to cut nnn in half to get down to subarrays of just 1 element (our base case). The additional nnn comes from the time cost of merging all nnn items together each time we merge two sorted subarrays. 
